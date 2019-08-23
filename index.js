@@ -31,7 +31,7 @@ if (document.querySelector('input').value == "" || document.querySelector('input
 } else {
     var fortune = Math.floor((Math.random() * responses.length));
     var userInput = document.querySelector('input').value;
-    document.getElementById('content').innerHTML = `<p class="text-center style">"${userInput}""</p>
+    document.getElementById('content').innerHTML = `<p class="text-center style">"${userInput}"</p>
     <p class="text-center">${responses[fortune]}</p>`;
     document.querySelector('input').value = "";
     document.querySelector('.hidden').classList.remove('show');
