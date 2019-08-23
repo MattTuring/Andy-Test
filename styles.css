@@ -1,0 +1,131 @@
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+@import "https://fonts.googleapis.com/css?family=Open+Sans|Life+Savers:800";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+input {
+  color: #2B4E80;
+  height: 30px;
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+h1 {
+  font-family: 'life savers', Open Sans;
+  color: #2B4E80;
+}
+
+.light-blue-background {
+  background-color: #E6ECF4;
+}
+
+.get-anwser {
+  background-color: #2B4E80;
+  height: 36px;
+  width: 91%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  color: white;
+}
+
+.get-anwser:disabled {
+  background-color:  #607AA0;
+}
+
+.get-anwser:hover {
+  background-color: #1C3455;
+}
+
+.clear {
+  background-color: #DE4841;
+  height: 25px;
+  color: white;
+  position: absolute;
+  bottom: -20px;
+}
+
+
+.clear:disabled {
+  background-color: #D0CDCD;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+
+}
+
+section {
+  height: 50vh;
+  width: 40%;
+}
+
+.ball {
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.woody {
+  height: 100%
+}
+
+.block {
+  display: block;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.spacing {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: initial;
+  position: relative;
+  bottom: -43px;
+  right: 23px;
+}
+
+#content {
+  display: contents;
+}
+
+.style {
+  font-style: italic;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+  color: white;
+  background-color: red;
+  opacity: .6;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: -25px
+}
